@@ -1,0 +1,93 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  margin-bottom: 10px;
+}
+p {
+  
+  width: 90%;
+  height: 200px;
+  padding-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  
+  color: white;
+  clear: both;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/* title style*/
+.block_title{
+  float:right;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  border: 1px solid black;
+  padding: 5px;
+  
+}
+
+.menu_title{
+  text-align: center;
+}
+#pilau {
+  
+  background: gray;
+  
+}
+#samosa{
+  background: orange;
+}
+#beef{
+  background: green;
+  color: white;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {.col-lg-4{
+    float: left;
+    border: 1px solid green;
+    background-color: #A52A2A;
+    margin-bottom: 20px;
+  }
+  
+  .col-lg-4 {
+    width: 33.33%;
+  }
+ 
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {.col-md-6
+  {
+    float: left;
+    border: 1px solid green;
+    background-color: #A52A2A;
+    margin-bottom: 20px;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+  
+}
+  /********** small devices only **********/
+@media (max-width: 767px) { 
+   .col-sm-12 {
+    float: left;
+    border: 1px solid green;
+    background-color: #A52A2A;
+    margin-bottom: 20px;
+  }
+  
+  .col-sm-12 {
+    width: 100%;
+  }
+
+}
